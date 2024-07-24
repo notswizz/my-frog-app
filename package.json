@@ -4,10 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "build": "frog vercel-build",
+    "dev": "frog dev",
     "deploy": "vercel"
   },
   "dependencies": {
